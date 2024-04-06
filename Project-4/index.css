@@ -1,0 +1,65 @@
+body {
+  background-color: lightblue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.container p {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ParentBox {
+  width: 500px;
+  height: auto;
+  border-style: solid;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ParentBox hr {
+  color: black;
+  height: 2px;
+  background-color: black;
+}
+.box {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.box:hover::not([disabled]) {
+  background-color: black;
+  color: white;
+  border-style: none;
+  cursor: none;
+}
+.box:disabled {
+  cursor: no-drop;
+}
+.btn {
+  margin-top: 20px;
+  text-align: center;
+}
+.btn button {
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  cursor: pointer;
+  color: white;
+}
+.correct {
+  background-color: green;
+  color: white;
+}
+.incorrect {
+  background-color: red;
+  color: white;
+}

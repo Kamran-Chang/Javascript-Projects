@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px 10px;
+  flex-wrap: wrap;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+}
+#green {
+  background-color: green;
+}
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#aqua {
+  background-color: aqua;
+}
+#btn {
+  width: 80px;
+  height: 20px;
+  border-style: solid;
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 940px;
+  color: white;
+  border-radius: 20px;
+}
+#button:hover {
+  cursor: pointer;
+}
